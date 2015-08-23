@@ -1,16 +1,16 @@
 THE FULL LOGICAL RULESET
 
-Last updated: 24 November 2014
+Last updated: 18 April 2015
 
-Last proposal with recorded effect on this ruleset: 7729
-Last change to this ruleset: by Proposal 7729
+Last proposal with recorded effect on this ruleset: 7733
+Last change to this ruleset: by Proposal 7733
 
 Last ratification: Short Logical Ruleset of 7 April 2014
 Last ratification date: 1 May 2014
 
-Highest Rule ID number ever assigned: 2445
+Highest Rule ID number ever assigned: 2448
 
-Online documents:
+Online documents [OUT OF DATE]:
   http://agora.qoid.us/current_flr.txt (FLR)
   http://agora.qoid.us/current_slr.txt (SLR)
   http://agora.qoid.us/current_flr.txt,v (RCS history from 2001-)
@@ -19,7 +19,7 @@ Online documents:
 
 Statistics
 
-Current total number of rules: 77
+Current total number of rules: 77 or 78
 
 Power distribution:
        1 with Power=4
@@ -29,7 +29,7 @@ Power distribution:
       12 with Power=2
        2 with Power=1.7
        2 with Power=1.5
-      22 with Power=1
+22 or 23 with Power=1
 
 ----------------------------------------------------------------------
 
@@ -60,10 +60,9 @@ Index of Rules
       Rule 2139: The Registrar
       Rule 1789: Cantus Cygneus
       Rule 2130: How to be Shown the Door
+      Rule 2447: Monthly Cleanup
 
       * Economy
-      Rule 2434: GNP
-      Rule 2435: Minister for GNP Evaluation
       Rule 2438: Ribbons
       Rule 2440: Word Cards
       Rule 2441: Shopping Periods
@@ -71,11 +70,12 @@ Index of Rules
 
       * Province of Agora
       Rule 2436: The Province of Agora
-      Rule 2437: The Dungeon Master
+      Rule 2437: The Dungeon Master [*may not exist]
 
       * Definitions
       Rule 1023: Common Definitions
       Rule 1769: Holidays
+      Rule 2448: Eras
       Rule 2162: Switches
       Rule  478: Fora
       Rule 1728: Dependent Actions
@@ -93,7 +93,8 @@ Index of Rules
       Rule 2201: Self-Ratification
       Rule  103: The Speaker
       Rule 2423: First Among Equals
-
+      Rule 2446: The Agoran Newspaper 
+      
       * Agoran Decisions
       Rule  693: Agoran Decisions
       Rule  107: Initiating Agoran Decisions
@@ -1117,55 +1118,24 @@ Retitled and amended(14) by Proposal 7632 (scshunt), 1 May 2014
 
 ----------------------------------------------------------------------
 
+Rule 2447/0 (Power=1)
+Monthly Cleanup
+
+      In the first week of every month, the Registrar shall use the
+      method described in Rule 2130 to attempt to deregister every
+      player that has not sent a message to a public forum in the last
+      month. This action is the Monthly Deportation.
+
+      Players who have not sent messages to a public forum in the last
+      month are encouraged to deregister themselves before the Monthly
+      Deportation.
+
+Created by Proposal 7730 (Henri), 11 Feb 2015
+
+----------------------------------------------------------------------
+
 ======================================================================
 Economy
-----------------------------------------------------------------------
-
-Rule 2434/0 (Power=1)
-GNP
-
-      GNP (Gross Nomic Participation) is the number of messages
-      published in the public fora in a specified period of time.
-
-      Weekly GNP is the GNP measure for the period of time between the
-      start of an Agoran Week and the start of the following Agoran
-      Week. Monthly GNP is the GNP measure for the period of time
-      between the start of an Agoran Month and the start of the
-      following Agoran Month.
-
-History:
-Created by Proposal 7676 (Henri), 12 July 2014
-
-----------------------------------------------------------------------
-
-Rule 2435/0 (Power=1)
-Minister for GNP Evaluation
-
-      The Minister for GNP Evaluation is an office; its holder is
-      responsible for keeping track of the Agoran GNP.
-
-      The Minister for GNP Evaluation’s weekly report includes:
-
-      a) The Weekly GNP values of the previous ten weeks.
-      b) The percent change of GNP between each consecutive week.
-      c) The percent change of GNP between the first week and  the
-         last week of the previous ten weeks.
-
-      The Minister for GNP Evaluation’s monthly report includes:
-
-      a) The Monthly GNP value of the previous twelve months.
-      b) The percent change of GNP between each consecutive month.
-      c) The percent change of GNP between the first and last months
-         of the previous twelve months.
-
-      The Minister for GNP Evaluation SHOULD maintain a publicly
-      visible graphical representation of the information included in
-      eir reports on the World Wide Web, and they SHOULD publish the
-      address of this copy along with their published reports.
-
-History:
-Created by Proposal 7677 (Henri), 12 July 2014
-
 ----------------------------------------------------------------------
 
 Rule 2438/0 (Power=3)
@@ -1356,7 +1326,7 @@ Amended(1) by Proposal 7707 (Warrigal), 3 November 2014
 
 ----------------------------------------------------------------------
 
-Rule 2437/1 (Power=1)
+Rule 2437/1 (Power=1) 
 The Dungeon Master
 
       The Dungeon Master is an office.  The Dungeon Master's weekly
@@ -1367,7 +1337,7 @@ The Dungeon Master
       whatsoever (subject to other rules), but they SHOULD follow
       common sense, precedent, and Agoran consensus.
 
-[! Rulekeepor note: There is a small chance this rule has been
+[! Rulekeepor note: There is a moderate chance this rule has been
    repealed.]
 
 History:
@@ -1522,6 +1492,23 @@ Amended(10) by Proposal 7151 (Murphy), 25 January 2012
 Amended(11) by Proposal 7262 (omd), 7 July 2012
 Amended(12) by Proposal 7610 (G.), 22 December 2013
 Amended(13) by Proposal 7647 (omd), 3 June 2014
+
+----------------------------------------------------------------------
+
+Rule 2448/0 (Power=1)
+Eras
+
+      An Era is a period of time that has a defined start, either
+      has a defined end or is still ongoing, and has been initiated
+      as specified by this rule.
+
+      Upon the initiation of an Era, each existing Rule identifying
+      itself as Erratic (in the order they were created) is
+      repealed, unless the initiation specifies otherwise.
+
+      A player CAN initiate a new Era with Agoran Support.
+
+Created by Proposal 7733 (Murphy), 14 April 2015
 
 ----------------------------------------------------------------------
 
@@ -2615,6 +2602,29 @@ First Among Equals
 
 History:
 Created by Proposal 7633 (scshunt), 1 May 2014
+
+----------------------------------------------------------------------
+
+Rule 2446/0 (Power=1)
+The Agoran Newspaper
+
+      The Agoran Newspaper is a weekly publication describing
+      noteworthy recent events that occured in the public fora in the
+      past 7 days. The Herald SHALL write and publish The Agoran
+      Newspaper each week.
+
+      The Agoran Newspaper will be formatted at the discretion of the
+      Herald. The Herald SHOULD include all information necessary to
+      give the Agoran people a comprehensive understanding of the
+      events occuring in Agora in a given week.
+
+      The purpose of the Agoran newspaper is to provide the Agoran
+      people an easily understandable source of information concerning
+      the happenings of Agora in order to create a more informed
+      people.
+
+History:
+Created by Proposal 7729 (Henri), 11 Feb 2015
 
 ----------------------------------------------------------------------
 
@@ -4349,3 +4359,6 @@ depending on the circumstances.]
 ----------------------------------------------------------------------
 
 END OF THE FULL LOGICAL RULESET
+
+
+
