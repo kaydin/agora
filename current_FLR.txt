@@ -1,13 +1,13 @@
 THE FULL LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded: 
-      Adoption of Proposal 7772, 10 August 2015
+      Adoption of Proposal 7784, 10 August 2015
 
 Last Ruleset Ratification: 
       Short Logical Ruleset of 7 Apr 2014, ratified on 1 May 2014
 
 Highest Rule ID number ever assigned: 
-      Rule 2452
+      Rule 2453
 
 Online documents:
  http://faculty.washington.edu/kerim/nomic/rkeep/current_flr.txt (FLR)
