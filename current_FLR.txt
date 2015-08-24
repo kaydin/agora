@@ -1,14 +1,14 @@
 THE FULL LOGICAL RULESET
 
-Last updated: 11 May 2015
+Last updated: 24 July 2015
 
-Last proposal with recorded effect on this ruleset: 7743
-Last change to this ruleset: by Proposal 7743
+Last proposal with recorded effect on this ruleset: 7768
+Last change to this ruleset: by Proposal 7768
 
 Last ratification: Short Logical Ruleset of 7 April 2014
 Last ratification date: 1 May 2014
 
-Highest Rule ID number ever assigned: 2448
+Highest Rule ID number ever assigned: 2452
 
 Online documents:
  http://faculty.washington.edu/kerim/nomic/rkeep/current_flr.txt (FLR)
@@ -90,14 +90,14 @@ Index of Rules
       Rule 2422: Voting Strength
       Rule 2127: Conditional Votes
       Rule 2168: Extending the voting period
-      Rule  208: Resolving Agoran decisions
+      Rule  208: Resolving Agoran Decisions
       Rule  955: Determining the Will of Agora
       Rule  879: Quorum
       Rule 2034: Vote Protection and Cutoff for Challenges
 
       * Proposals
       Rule 2350: Proposals
-      Rule 2445: How to pend a proposal
+      Rule 2445: How to Pend a Proposal
       Rule 2443: Expediting Proposals
       Rule  106: Adopting Proposals
       Rule 1607: Distribution
@@ -120,7 +120,7 @@ Index of Rules
       Rule 1367: Degrees
       Rule 2231: Order of the Hero of Agora Nomic
       Rule 2415: Badges
-
+      
       * Trophies
       Rule 1727: Happy Birthday
       Rule 2029: Town Fountain
@@ -147,7 +147,7 @@ They are added at the Rulekeepor's discretion.
 The Game of Agora
 ----------------------------------------------------------------------
 
-Rule 101/16 (Power=3)
+Rule 101/17 (Power=3)
 The Game of Agora
 
       Agora is a game of Nomic, wherein Persons, acting in accordance
@@ -304,7 +304,7 @@ Amended(7) by Proposal 7613 (Arufonsu), 11 January 2014
 
 ----------------------------------------------------------------------
 
-Rule 1688/6 (Power=3)
+Rule 1688/7 (Power=3)
 Power
 
       The Power of an entity is a non-negative rational number.  An
@@ -313,6 +313,9 @@ Power
       The Power of an entity cannot be set or modified except as
       stipulated by the Rules.  All entities have Power zero except
       where specifically allowed by the rules.
+
+      Power less than one is called Ephemeral power, and an instrument
+      with a power less than one is an Ephemeral instrument.
 
       A Rule that secures a change, action, or value (hereafter the
       securing Rule) thereby makes it IMPOSSIBLE to perform that
@@ -332,6 +335,7 @@ Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle,
   ais523), 23 January 2009
 Amended(5) by Proposal 6513 (coppro; disi.), 3 October 2009
 Amended(6) by Proposal 6815 (Murphy, ais523), 4 September 2010
+Amended(7) by Proposal 7759 (G.), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -364,6 +368,23 @@ Amended(1) by Proposal 6992 (Murphy, omd), 10 April 2011
 
 ----------------------------------------------------------------------
 
+Rule 2449/0 (Power=3)
+Winning the Game
+
+      When the Rules state that a Player or Players win the game,
+      those players win the game; specifically they win the Round
+      that ends with the indicated win.  Agora itself does not end and
+      the ruleset remains unchanged. The Herald is then authorized to
+      award those players the Patent Title of Champion.
+
+      Winning the game is secured, except as described in Ephemeral
+      Rules.
+
+History:
+Created by Proposal 7760 (G.), 19 July 2015
+
+----------------------------------------------------------------------
+
 Rule 104/0 (Power=3)
 First Speaker
 
@@ -386,14 +407,14 @@ Mutated from MI=Unanimity to MI=3 by Proposal 1482, Mar. 15 1995
 Rules
 ----------------------------------------------------------------------
 
-Rule 2141/8 (Power=3)
+Rule 2141/9 (Power=3)
 Role and Attributes of Rules
 
       A rule is a type of instrument with the capacity to govern the
       game generally, and is always taking effect.  A rule's content
       takes the form of a text, and is unlimited in scope.
 
-      Every rule has power between one and four inclusive.  It is
+      Every rule has power between 0.1 and 4.0 inclusive.  It is
       not possible for a rule to have a power outside this range.
 
       Rules have ID numbers, to be assigned by the Rulekeepor.
@@ -430,6 +451,7 @@ Amended(5) by Proposal 6670 (coppro), 14 March 2010
 Amended(6) by Proposal 6992 (Murphy, omd), 10 April 2011
 Amended(7) by Proposal 7420 (omd), 27 March 2013
 Amended(8) by Proposal 7614 (G.), 13 January 2014
+Amended(9) by Proposal 7759 (G.), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -632,7 +654,7 @@ Amended(1) by Proposal 6429 (Murphy), 18 August 2009
 
 ----------------------------------------------------------------------
 
-Rule 105/11 (Power=3)
+Rule 105/12 (Power=3)
 Rule Changes
 
       Where permitted by other rules, an instrument generally can,
@@ -641,7 +663,7 @@ Rule Changes
       (a) enact a rule.  The new rule has power equal to the minimum
           of the power specified by the enacting instrument,
           defaulting to one if the enacting instrument does not
-          specify or if it specifies a power less than one, and the
+          specify or if it specifies a power less than 0.1, and the
           maximum power permitted by other rules.  The enacting
           instrument may specify a title for the new rule, which if
           present shall prevail.  The ID number of the new rule cannot
@@ -752,6 +774,7 @@ Amended(8) by Proposal 7614 (G.), 13 January 2014
 Amended(9) by SLR ratification (Proposal 7638; omd), 1 May 2014
 Amended(10) by Proposal 7647 (omd), 3 June 2014
 Amended(11) by Proposal 7710 (G.), 3 November 2014
+Amended(12) by Proposal 7759 (G.), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -1087,7 +1110,7 @@ Amended(9) by Proposal 7646 (omd), 3 June 2014
 
 ----------------------------------------------------------------------
 
-Rule 2438/1 (Power=3)
+Rule 2438/4 (Power=3)
 Ribbons
 
       The Tailor is an office, and the recordkeepor of Ribbons.
@@ -1108,13 +1131,8 @@ Ribbons
       not owned that type of Ribbon within the preceding 7 days.
 
       While a person owns all types of Ribbon, that person can Raise a
-      Banner by announcement. This causes that person to win the game
-      and a new game begins. That person's Ribbon Ownership becomes
-      the empty set. The beginning of a new game does not cause any
-      changes to the game state not specified by the rules; in
-      particular, Agora does not end and the ruleset remains
-      unchanged. The Herald is then authorized to award that player
-      the Patent Title of Champion.
+      Banner by announcement. This causes that person to win the game.
+      That person's Ribbon Ownership becomes the empty set.
 
       The types of Ribbon, and the methods of obtaining them, are as
       follows:
@@ -1163,13 +1181,21 @@ Ribbons
       (including under a previous ruleset) CAN award a White Ribbon to
       another person by announcement.
 
-      Black (K): Black Ribbons CANNOT be awarded except via proposal.
-      This paragraph defers to all other rules.
+      Black (K): This rule does not specify any methods of obtaining
+      Black Ribbons.
+
+      Gray (Y): The Tailor CAN award a Gray Ribbon by announcement,
+      unless e has done so earlier in the month. E is ENCOURAGED to
+      award such a Ribbon in the same message in which e publishes eir
+      monthly report.
 
 History:
 Created by Proposal 7698 (ais523), 3 November 2014
 Power changed from 1 to 3 by Proposal 7725 (aranea), 16 November 2014
 Amended(1) by Proposal 7735 (aranea), 2 May 2015
+Amended(2) by Proposal 7746 (aranea), 19 May 2015
+Amended(3) by Proposal 7748 (ais523), 30 June 2015
+Amended(4) by Proposal 7760 (G.), 19 July 2015 
 
 ----------------------------------------------------------------------
 
@@ -1177,7 +1203,7 @@ Amended(1) by Proposal 7735 (aranea), 2 May 2015
 Definitions
 ----------------------------------------------------------------------
 
-Rule 1023/33 (Power=2)
+Rule 1023/34 (Power=2)
 Common Definitions
 
       The following terms are defined:
@@ -1207,9 +1233,9 @@ Common Definitions
 
           (5) A pivot is either the instant at which Agora Nomic began
               (June 30, 1993, 00:04:30 GMT +1200) or an instant at
-              which at least one person won the game.  When used as a
-              period of time, a "game" is the period of time between a
-              pivot and the next pivot.
+              which at least one person won the game.  When used as a 
+              period of time, a "Round" (historical syn: "game") is 
+              the period of time between a pivot and the next pivot.
 
           These definitions do not apply to relative durations (e.g.
           "within <number> days after <event>").
@@ -1274,6 +1300,7 @@ Amended(30) by Proposal 7420 (omd), 27 May 2013
 Amended(31) by Proposal 7606 (G.), 13 December 2013
 Amended(32) by Proposal 7641 (scshunt), 12 May 2014
 Amended(33) by Proposal 7686 (omd), 7 August 2014
+Amended(34) by Proposal 7760 (G.), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -1322,20 +1349,21 @@ Amended(13) by Proposal 7647 (omd), 3 June 2014
 
 ----------------------------------------------------------------------
 
-Rule 2448/0 (Power=1)
+Rule 2448/1 (Power=1)
 Eras
 
       An Era is a period of time that has a defined start, either
       has a defined end or is still ongoing, and has been initiated
       as specified by this rule.
 
-      Upon the initiation of an Era, each existing Rule identifying
-      itself as Erratic (in the order they were created) is
-      repealed, unless the initiation specifies otherwise.
+      Upon the initiation of an Era, each existing Ephemeral Rule
+      (in the order they were created) is repealed, unless the 
+      initiation specifies otherwise.
 
       A player CAN initiate a new Era with Agoran Support.
 
 Created by Proposal 7733 (Murphy), 14 April 2015
+Amended(1) by Proposal 7759 (G.), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -2159,22 +2187,18 @@ Amended(47) by Proposal 7684 (scshunt), 1 August 2014
 
 ----------------------------------------------------------------------
 
-Rule 2138/20 (Power=1)
-The Interstellar Associate Director of Personnel
+Rule 2138/22 (Power=1)
+The Associate Director of Personnel
 
-      The Interstellar Associate Director of Personnel (IADoP) is an
-      office; its holder is responsible for keeping track of officers.
+      The Associate Director of Personnel (ADoP) is an office; its
+      holder is responsible for keeping track of officers.
 
-      The IADoP's report includes the following:
+      The ADoP's report includes the following:
 
       a) The date of the last change (if any) to each office's
          Officeholder.
       b) The date on which the most recent election for each office
          was initiated.
-
-      Any player CAN, with Agoran Consent, cause this Rule to amend
-      itself by replacing "Interstellar" with any other single word
-      beginning with "Inter" in its text and title.
 
 [CFJ 1672 (called 18 May 2007): The Interstellar Associate Director of
 Personnel is the Director of Personnel.]
@@ -2204,6 +2228,10 @@ Amended(17) by Proposal 7566 (Walker), 24 August 2013
 Amended(18) by Proposal 7629 (scshunt), 7 April 2014
 Amended(19) by Proposal 7663 (omd), 3 June 2014
 Amended(20) by Proposal 7649 (omd), 3 June 2014
+Amended(21) by Proposal 7757 (scshunt), 17 July 2015
+Retitled by Proposal 7757 (scshunt), 17 July 2015
+Retitled by Proposal 7758 (omd), 19 July 2015
+Amended(22) by Proposal 7758 (omd), 19 July 2015
 
 ----------------------------------------------------------------------
 
@@ -2439,13 +2467,46 @@ Created by Proposal 7633 (scshunt), 1 May 2014
 
 ----------------------------------------------------------------------
 
-Rule 2446/0 (Power=1)
+Rule 2451/0 (Power=1)
+Executive Orders
+
+      Once per week and except as otherwise forbidden by this
+      rule, the current Prime Minister CAN issue a Cabinet Order
+      and perform the action(s) authorized by that Order.
+
+      Each Cabinet Order is associated with an office. The current
+      Prime Minister CANNOT issue more than one Cabinet Order
+      associated with the same office more than once in the same
+      month, nor can e issue a Cabinet Order associated with a
+      vacant office.
+
+      The available Cabinet Orders are:
+
+      - Certiorari (CotC): The Prime Minister assigns emself as
+        judge of a specified open case.
+
+      - Dive (Referee): The Prime Minister issues a specified Card
+        to a specified player. In doing so, the Prime Minister
+        SHOULD cite a specific grievance against that player, not
+        necessarily a violation of a rule.
+
+      - Manifesto (Promotor): The Prime Minister distributes a
+        specified proposal in the Proposal Pool.
+
+History:
+Created by Proposal 7764 (scshunt), 24 July 2015
+
+----------------------------------------------------------------------
+
+Rule 2446/1 (Power=1)
 The Agoran Newspaper
 
       The Agoran Newspaper is a weekly publication describing
       noteworthy recent events that occured in the public fora in the
-      past 7 days. The Herald SHALL write and publish The Agoran
-      Newspaper each week.
+      prior Agoran Week.  The Herald SHALL write and publish The 
+      Agoran Newspaper each week.  When the Herald publishes the 
+      Newspaper for a given Agoran week, any obligation e has to 
+      publish the Newspaper for a prior week is discharged.
 
       The Agoran Newspaper will be formatted at the discretion of the
       Herald. The Herald SHOULD include all information necessary to
@@ -2459,6 +2520,7 @@ The Agoran Newspaper
 
 History:
 Created by Proposal 7729 (Henri), 11 Feb 2015
+Amended() by Proposal 7766 (scshunt), 24 July 2015
 
 ----------------------------------------------------------------------
 
@@ -2735,7 +2797,7 @@ Amended(7) by Proposal 7045 (Walker), 16 May 2011
 ----------------------------------------------------------------------
 
 Rule 208/10 (Power=3)
-Resolving Agoran decisions
+Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
       it by announcement, indicating the option selected by Agora.  If
@@ -2793,6 +2855,7 @@ Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle,
 Amended(8) by Proposal 6746 (coppro; disi.), 1 July 2010
 Amended(9) by Proposal 7259 (Murphy), 6 July 2012
 Amended(10) by Proposal 7420 (omd), 27 May 2013
+Retitled by Proposal 7753 (scshunt), 30 June 2015
 
 ----------------------------------------------------------------------
 
@@ -3750,6 +3813,16 @@ Amended(4) by Proposal 7729 (Tiger), 24 November 2014
 
 ----------------------------------------------------------------------
 
+Rule 2450/0 (Power=1.7)
+Pledges
+
+      Breaking a publicly-made pledge is a cardable offense.
+
+History:
+Created by Proposal 7761 (G.), 19 July 2015
+      
+----------------------------------------------------------------------
+
 Rule 2427/0 (Power=3)
 Red Cards
 
@@ -3770,7 +3843,7 @@ Created by Proposal 7639 (omd), 1 May 2014
 Patent Titles and Degrees
 ----------------------------------------------------------------------
 
-Rule 649/36 (Power=1.5)
+Rule 649/37 (Power=1.5)
 Patent Titles
 
       A Patent Title is a legal title given to a person in recognition
@@ -3784,9 +3857,8 @@ Patent Titles
       so are announced, unless there is an open judicial case
       contesting the validity of those conditions.
 
-      The Herald CAN award a specified Patent Title not already
-      defined by any Rule or held by any entity to a specified player
-      With 2 Agoran Consent.
+      The Herald CAN award a specified Patent Title to a specified
+      player With 2 Agoran Consent.
 
 [CFJ 1525 (called 15 November 2004): If a patent title is defined by
 the rules, and previously the rules defined a patent title with the
@@ -3849,6 +3921,7 @@ Amended(33) by Proposal 7315 (omd), 16 October 2012
 Amended(34) by Proposal 7420 (omd), 27 May 2013
 Amended(35) by Proposal 7470 (woggle; disi.), 17 June 2013
 Amended(36) by Proposal 7621 (G.), 23 February 2014
+Amended(37) by Proposal 7755 (G.), 30 June 2015
 
 ----------------------------------------------------------------------
 
@@ -3950,6 +4023,28 @@ Badges
 
 History:
 Created by Proposal 7516 (G.), 19 July 2013
+
+----------------------------------------------------------------------
+
+======================================================================
+Ephemera
+----------------------------------------------------------------------
+
+Rule 2452/0 (Power=0.5)
+Trust Tokens
+
+      Any player can issue a Trust Token to another person by
+      announcement.
+
+      A player can win the game by announcement if e has been issued a
+      Trust Token by each other player; if no player has won via this
+      mechanism in the past; and if in the same message, e quotes, for
+      each player, a public message in which that player issued em a
+      Trust Token.
+
+History:
+Created by Proposal 7768 (ais523), 24 July 2015
+Power changed from 1.0 to 0.5 by Proposal 7768 (ais523), 24 July 2015 
 
 ----------------------------------------------------------------------
 
