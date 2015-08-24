@@ -1,0 +1,107 @@
+Date: Mon, 10 Aug 2015 22:42:11 -0400
+From: omd
+To: Agora Official <agora-official@agoranomic.org>
+Subject: OFF: [Briefly Assessor] Voting Results for Proposals 7772, 7784
+
+Per the "publicly specified" clauses of Proposal 7784, "Mammon Machine", I
+hereby specify that omd, scshunt, and ais523 should win the game as a result of
+that proposal, and that additionally, the proposal should award a Black Ribbon
+to each.
+
+I hereby deputise for Assessor to resolve Proposal 7772, and then as Assessor,
+end the voting period of and resolve Proposal 7784, as follows.  Then I resign
+Assessor.
+
+[This notice resolves the Agoran decisions of whether to adopt the
+ following proposals.  For each decision, the options available to
+ Agora are ADOPTED (*), REJECTED (x), and FAILED QUORUM (!).]
+
+*7772  scshunt    3.0  Tie-Breaking Votes
+*7784  omd        0.2  Mammon Machine
+
+Note: For 7784, the freshly introduced tie clause from 7772 applies; due to a
+typo in the latter's drafting, if F/A = AI, it requires that F >= AI (which, at
+F=1 and AI=0.2, it is) instead of the intended F > A (which still applies to
+non-ties).  Accordingly, as vote collector I shall select the outcome, and
+hereby select ADOPTED.
+
+(This scam was the real reason for proposing Mammon Machine, as opposed to the
+reward-for-votes scheme it looks like, so, for the record, the comments in it
+were somewhat misleading - but not false.)
+
+               7772  7784
+
+ais523         A     A
+aranea         F     A
+G.             F
+omd            F     F
+scshunt              A
+Sprocklem            A
+Tekneek        P
+the Warrigal         A
+Tiger          F
+woggle         P
+
+AI             3     0.2
+VI             4     0.2
+F/A            4/1   1/5
+
+Quorum         6     4
+Voters         7     6
+
+Ending Quorum: 3
+
+
+Text of adopted proposals:
+
+//////////////////////////////////////////////////////////////////////
+
+ID: 7772
+Title: Tie-Breaking Votes
+Adoption index: 3.0
+Author: scshunt
+Co-author(s):
+
+Amend Rule 955 (Determining the Will of Agora) by replacing
+
+      (b) If the decision has an adoption index, then if the strength
+          of FOR is greater than the strength of AGAINST, and the
+          ratio of the strength of FOR to the strength of AGAINST is
+          greater than or equal to the decision's adoption index (or
+          the strength of AGAINST is zero), then the outcome is
+          ADOPTED; otherwise, the outcome is REJECTED.
+
+with
+
+      (b) If the decision has an adoption index, then if the strength
+          of FOR is greater than the strength of AGAINST, and the
+          ratio of the strength of FOR to the strength of AGAINST is
+          greater than the decision's adoption index (or
+          the strength of AGAINST is zero), then the outcome is
+          ADOPTED; otherwise if the strength of FOR is equal to or
+          greater than the decisions adoption index and the ration of
+          the strength of FOR to the strength of AGAINST is equal to
+          the decision's adoption index, then the vote collector shall
+          select either ADOPTED or REJECTED as the outcome;
+          otherwise, the outcome is REJECTED.
+
+[Give the Assessor the power to break ties, including to get a
+majority on a vote or when the voting ratio exactly matches the AI].
+
+//////////////////////////////////////////////////////////////////////
+
+ID: 7784
+Title: Mammon Machine
+Adoption index: 0.2
+Author: omd
+Co-author(s):
+
+Create a new Power-0.2 Rule:
+
+      Whoever omd has publicly specified should win the game as a
+      result of the proposal "Mammon Machine" does so upon the
+      enactment of this rule.  Then this rule repeals itself.
+
+[That set of people is likely to be correlated with the set of FOR voters.]
+
+Do whatever else omd has publicly specified this proposal should do.  [Ideas?]

@@ -1,0 +1,333 @@
+Date: Fri, 14 Aug 2015 12:52:02 -0400 (EDT)
+From: scshunt
+To: Agora Official <agora-official@agoranomic.org>
+Subject: OFF: [Assessor] Resolution of Proposals, 7773-7783
+
+[This notice resolves the Agoran decisions of whether to adopt the
+ following proposals.  For each decision, the options available to
+ Agora are ADOPTED (*), REJECTED (x), and FAILED QUORUM (!). If a
+ decision's voting period is still ongoing, I end it immediately
+ before resolving it and after resolving the previous decision.]
+
+ Num   Author                 AI  Title
+*7773  scshunt                 1  IADoP Salary Control
+x7774  scshunt                 1  Blocking Power
+x7775  scshunt                 3  High-Power Centralization
+*7776  omd                   1.7  Clarify judgement wording
+*7777  omd                     2  Simplified moot fix
+*7778  scshunt                 3  Instant Runoff Improved
+x7779  scshunt                 1  Compeition Pending
+x7780  the Warrigal            3  We don't need that
+*7781  the Warrigal            3  Secure, secures, securing, secured
+x7782  the Warrigal            3  Power Always Controls Mutability
+x7783  scshunt                 3  Flawless Consistency
+
+                      7773  7774  7775  7776  7777  7778  7779  7780
+G.                      F     F     F     F     F     P     F
+Gaelan                                                            F
+Joe Piercey                                                       F
+Sprocklem                                                         P
+Tekneek                 P     F     F     F     F     A     A     A
+Tiger                   F     F     P     F     F     F     P
+ais523                 2F    2P    2F    2F    2F    2F    2A    2A
+aranea                  P     A     A     F     F     F     A     A
+omd                     F     A     A     F     F     F     F     A
+the Warrigal                                                      F
+woggle                  P     A     F     F     F     P     P
+
+For/ Against           5/0   3/3   5/2   8/0   8/0   5/1   2/4   3/5
+VI                     *U*    1    5/2   *U*   *U*    5    1/2   3/5
+AI                      1     1     3    1.7    2     3     1     3
+Voters                  7     7     7     7     7     7     7     8
+Quorum                  3     4     4     4     4     4     4     4
+
+                      7781  7782  7783
+Gaelan                  P     F     F
+Joe Piercey             F     F     P
+Sprocklem               F     F     A
+Tekneek                 F     F     P
+ais523                 2F    2A    2A
+aranea                  P     F     P
+omd                     F     A     A
+the Warrigal            F     F     F
+
+For/ Against           7/0   6/3   2/4
+VI                     *U*    2    1/2
+AI                      3     3     3
+Voters                  8     8     8
+Quorum                  5     5     5
+
+Starting Quorum: 3
+Ending Quorum: 5
+
+Text of adopted proposals:
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+ID: 7773
+Title: IADoP Salary Control
+Author: scshunt
+Adoption Index: 1
+
+Amend Rule 2455 (How to Pend a Proposal) by replacing
+      Each office has a spending power, which is a natural number.
+      The spending power of each office is 1, except as otherwise
+      defined by rule. The spending power of Rulekeepor, of Speaker,
+      and of Prime Minister is 2. The spending power of Promotor is 4.
+with
+      Spending power is an office switch, whose values range over the
+      positive integers between 1 and 10 inclusive, with a default of
+      1. Spending power is tracked by the IADoP. The IADoP CAN flip
+      the spending power of an office by announcement, provided that
+      the Promotor always has spending power no less than 1 less than
+      the greatest spending power among offices, and further provided
+      that the current IADoP has not already flipped that office's
+      spending power in the current month.
+
+Set the spending power of Promotor to 4, of Rulekeepor, Prime
+Minister, and Speaker to 2, and of all other offices to 1.
+
+[Give the IADoP the authority to set salaries for officers. Promotor
+gets, as a perk, right to never be that far behind the office with the
+most.]
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+ID: 7776
+Title: Clarify judgement wording
+Author: omd
+Adoption Index: 1.7
+
+Amend Rule 591 (Delivering Judgements) by replacing:
+
+      When a CFJ becomes open and is assigned to a judge, that judge
+      SHALL assign a valid judgement to the case within a week of
+      assignment, by announcement.
+
+with:
+
+      When a CFJ is open and assigned to a judge, that judge CAN
+      assign a valid judgement to it by announcement, and SHALL do so
+      in a timely fashion after this becomes possible.
+
+If any CFJs initiated before 2015-06-01 are open, assign them a
+judgement of DISMISS.
+
+[The original wording is highly ambiguous about when - indeed, whether -
+judgements can actually be assigned.  I pointed this out back in
+November of last year, but nothing was done about it.  See:
+
+https://www.mail-archive.com/agora-business@agoranomic.org/msg26962.html
+
+In fact, the CFJs I called in that message were never assigned.
+]
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+ID: 7777
+Title: Simplified moot fix
+Author: omd
+Coauthors G.
+Adoption Index: 2
+
+Amend Rule 991 (Calls for Judgement) by replacing:
+
+      At any time, each CFJ is either open (default), or has exactly
+      one judgement.
+
+with:
+
+      At any time, each CFJ is either open (default), suspended, or
+      assigned exactly one judgement.
+
+Amend Rule 911 (Motions and Moots) by replacing all but the first
+paragraph with the following (selecting one of the two versions of the
+second paragraph as indicated):
+
+      If a CFJ has a judgement assigned, a player CAN enter that
+      judgement into Moot with two support.  When this occurs, the CFJ
+      is suspended, and the Arbitor is once authorized to initiate the
+      Agoran decision to determine public confidence in the judgement,
+      which e SHALL do in a timely fashion.
+
+If Proposal 7771 took effect: {
+      For this decision, the vote collector is the Arbitor, the valid
+      preferences are AFFIRM, REMAND, and REMIT, and the valid options
+      are ordered lists of one or more valid preference.  When the
+      decision is resolved, the effect depends on the outcome:
+}
+
+Otherwise: {
+      For this decision, the vote collector is the Arbitor and the
+      valid options are AFFIRM, REMAND, and REMIT.  When the decision
+      is resolved, the effect depends on the outcome:
+}
+
+      - AFFIRM, FAILED QUORUM: The judgement is reassigned to the case,
+        and cannot be entered into Moot again.
+
+      - REMAND: The case becomes open again.
+
+      - REMIT: The case becomes open again, and the current judge is
+        recused.  The Arbitor SHALL NOT assign em to the case again
+        unless no other eligible judges have displayed interest in
+        judging.
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+ID: 7778
+Title: Instant Runoff Improved
+Author: scshunt
+Adoption Index: 3
+
+[The proposal currently up for vote is broken due to the pseudo-quorum
+mechanism in the Silver Quill rule; it also doesn't clearly specify
+how voting strength factors into instant runoff (it's intended to
+not).  Sorry.  In any case, I prefer the following way of formulating
+instant runoff, based on splitting "option" from "valid vote",
+because:
+(a) they were already somewhat split due to PRESENT;
+(b) in general, in an instant runoff election, I think one would
+consider the ordinary-language "options" to be the candidates, not
+lists of them;
+(c) the rules are already confused about the term "option selected by
+Agora"; and
+(d) the refactored 955 feels cleaner in general.
+]
+
+Amend Rule 2444 (Silver Quill) by changing the last two paragraphs to:
+
+      Once four days have passed since initiation, the Herald CAN once
+      initiate the Agoran decision to determine the winner, and SHALL
+      do so in a timely fashion.  For this decision, the valid options
+      are all eligible proposals, the vote collector is the Herald,
+      and the voting method is instant runoff.
+
+      Upon the resolution of the decision, if the outcome is not
+      FAILED QUORUM and there were at least three votes containing it
+      in any preference slot, that proposal wins the Ceremony, and the
+      Herald is authorized to award its author the Patent Title of
+      "Silver Quill YYYY/MM", substituting the Marker Date; otherwise,
+      there is no winner.  This ends the Ceremony.
+
+Amend Rule 2154 (Election Procedure) by replacing:
+
+                                                                  For
+      this decision, the valid options are the players and the vote
+      collector is the IADoP. Upon the resolution of this decision,
+      its outcome, if a player, is installed into office, and the
+      election ends.
+
+with:
+
+                                                                  For
+      this decision, the valid options are the players, the vote
+      collector is the IADoP, and the voting method is instant runoff.
+      Upon the resolution of this decision, its outcome, if a player,
+      is installed into office, and the election ends.
+
+Amend Rule 693 (Agoran Decisions) by removing the last paragraph
+[about PRESENT].
+
+Amend Rule 107 (Initiating Agoran Decisions) by replacing item (b) with:
+
+      (b) A clear indication of the set of valid votes.
+
+Amend Rule 683 (Voting on Agoran Decisions) by replacing the first
+paragraph with:
+
+      An entity submits a ballot on an Agoran decision by publishing a
+      notice satisfying the following conditions:
+
+by replacing item (d) with:
+
+      (d) The ballot clearly identifies a valid vote, as determined by
+          the voting method.
+
+by replacing item (f) with:
+
+      (f) It is the most recent of the voter's otherwise-valid
+          ballots.
+
+and by removing the last paragraph [about strength].
+
+[Multiple ballots haven't been castable separately for a while now, so
+there's no need to require explicit retraction.]
+
+Amend Rule 1950 (Decisions with Adoption Indices) by replacing the
+last paragraph with:
+
+      For any Agoran decision with an adoption index, the voting
+      method is AI-majority.
+
+Amend Rule 955 (Determining the Will of Agora) to read:
+
+      Each Agoran decision has a voting method, which determines how
+      voters may vote on it and how to calculate the outcome.  The
+      following voting methods are defined:
+
+      (1) AI-majority: the valid votes are FOR and AGAINST.  Let F be
+          the total voting strength of all voters with valid ballots
+          cast FOR a decision, A be the same for AGAINST, and AI be
+          the adoption index of the decision.  The outcome is ADOPTED
+          if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
+          REJECTED.
+
+          This is the only voting method which takes voting strength
+          into account.
+
+      (2) Instant runoff: the valid votes are ordered lists of
+          options, and the outcome is whichever option wins according
+          to the standard definition of instant runoff.  In case
+          multiple valid options tie for the lowest number of votes at
+          any stage, the vote collector CAN and must, in the
+          announcement of the decision's resolution, select one such
+          option to eliminate; if, for N > 1, all eir possible choices
+          in the next N stages would result in the same set of options
+          being eliminated, e need not specify the order of
+          elimination.
+
+      (3) First-past-the-post (default): the valid votes are the
+          options, and the outcome is whichever option received the
+          most votes.  In case of a tie, the vote collector CAN and
+          must, in the announcement of the decision's resolution,
+          select one of the leaders as the outcome.
+
+      The previous notwithstanding:
+
+      - If there is more than one option, and the number of valid
+        ballots is less than quorum, the outcome is instead FAILED
+        QUORUM.
+      - PRESENT is always a valid vote, with no effect on the outcome
+        except counting towards quorum.
+      - If there are no valid options, the outcome is null.
+
+      The outcome of a decision is determined when it is resolved, and
+      cannot change thereafter.
+
+
+Amend Rule 106 (Adopting Proposals) by replacing "option selected by
+Agora" with "outcome".
+[ADOPTED was never an "option", so this never really made sense.]
+
+Amend Rule 208 (Resolving Agoran Decisions) by replacing "option
+selected by Agora" with "outcome", and removing "on the various
+options".
+
+Amend Rule 2127 (Conditional Votes) by replacing "selected option"
+with "value of the vote", then "option" with "value".
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+ID: 7781
+Title: Secure, secures, securing, secured
+Author: the Warrigal
+Adoption Index: 3
+
+In Rule 1688 "Power", change the phrase "A Rule that secures a change,
+action, or value" to "A Rule that makes a change, action, or value
+secured".
+
+}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{
+
+-scshunt
