@@ -1,13 +1,13 @@
 THE FULL LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded: 
-      Adoption of Proposal 7784, 10 August 2015
+      Adoption of Proposal 7786, 29 August 2015
 
 Last Ruleset Ratification: 
       Short Logical Ruleset of 7 Apr 2014, ratified on 1 May 2014
 
 Highest Rule ID number ever assigned: 
-      Rule 2453
+      Rule 2454
 
 Online documents:
  http://faculty.washington.edu/kerim/nomic/rkeep/current_flr.txt (FLR)
@@ -196,6 +196,27 @@ Amended(17) by Proposal 7743 (G.), 12 May 2015
 
 ----------------------------------------------------------------------
 
+Rule 2454/0 (Power=0.5)
+The New Map
+
+
+
+
+                                  _______
+                                 |      _
+                                _|  A  |
+                                _______|
+
+
+
+
+
+
+History:
+Created by Proposal 7785 (G.), 29 August 2015
+
+----------------------------------------------------------------------
+
 Rule 2125/8 (Power=3)
 Regulation Regulations
 
@@ -303,7 +324,7 @@ Amended(7) by Proposal 7613 (Arufonsu), 11 January 2014
 
 ----------------------------------------------------------------------
 
-Rule 1688/7 (Power=3)
+Rule 1688/8 (Power=3)
 Power
 
       The Power of an entity is a non-negative rational number.  An
@@ -316,8 +337,8 @@ Power
       Power less than one is called Ephemeral power, and an instrument
       with a power less than one is an Ephemeral instrument.
 
-      A Rule that secures a change, action, or value (hereafter the
-      securing Rule) thereby makes it IMPOSSIBLE to perform that
+      A Rule that makes a change, action, or value secured (hereafter 
+      the securing Rule) thereby makes it IMPOSSIBLE to perform that
       change or action, or to set or modify that value, except as
       allowed by an Instrument with Power greater than or equal to the
       change's Power Threshold.  This Threshold defaults to the
@@ -335,6 +356,7 @@ Assigned to Committee on Rules by Proposal 6053 (Murphy, woggle,
 Amended(5) by Proposal 6513 (coppro; disi.), 3 October 2009
 Amended(6) by Proposal 6815 (Murphy, ais523), 4 September 2010
 Amended(7) by Proposal 7759 (G.), 19 July 2015
+Amended(8) by Proposal 7781 (the Warrigal), 14 August 2015
 
 ----------------------------------------------------------------------
 
@@ -2111,7 +2133,7 @@ Amended(13) by Proposal 7713 (Warrigal), 9 November 2014
 
 ----------------------------------------------------------------------
 
-Rule 2154/47 (Power=2)
+Rule 2154/48 (Power=2)
 Election Procedure
 
       A player CAN initiate an election for a specified elected office
@@ -2127,10 +2149,10 @@ Election Procedure
       After the election is initiated, any player CAN once initiate an
       Agoran decision to determine the new officeholder, and the IADoP
       SHALL do so in a timely fashion if no one else does first.  For
-      this decision, the valid options are the players and the vote
-      collector is the IADoP. Upon the resolution of this decision,
-      its outcome, if a player, is installed into office, and the
-      election ends.
+      this decision, the valid options are the players, the vote
+      collector is the IADoP, and the voting method is instant runoff.
+      Upon the resolution of this decision, its outcome, if a player,
+      is installed into office, and the election ends.
 
 History:
 Created by Proposal 5059 (Zefram, Goethe), 9 July 2007
@@ -2184,6 +2206,7 @@ Amended(44) by Proposal 7645 (omd), 3 June 2014
 Amended(45) by Proposal 7654 (scshunt), 3 June 2014
 Amended(46) by Proposal 7658 (scshunt), 3 June 2014
 Amended(47) by Proposal 7684 (scshunt), 1 August 2014
+Amended(48) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -2498,7 +2521,7 @@ Created by Proposal 7764 (scshunt), 24 July 2015
 
 ----------------------------------------------------------------------
 
-Rule 2446/1 (Power=1)
+Rule 2446/2 (Power=1)
 The Agoran Newspaper
 
       The Agoran Newspaper is a weekly publication describing
@@ -2521,6 +2544,7 @@ The Agoran Newspaper
 History:
 Created by Proposal 7729 (Henri), 11 February 2015
 Amended(1) by Proposal 7766 (scshunt), 24 July 2015
+Amended(2) by Proposal 7786 (scshunt), 29 August 2015
 
 ----------------------------------------------------------------------
 
@@ -2528,7 +2552,7 @@ Amended(1) by Proposal 7766 (scshunt), 24 July 2015
 Agoran Decisions
 ----------------------------------------------------------------------
 
-Rule 693/14 (Power=3)
+Rule 693/15 (Power=3)
 Agoran Decisions
 
       When the rules calls for an Agoran decision to be made, the
@@ -2538,12 +2562,6 @@ Agoran Decisions
           (a) Initiation of the decision.
           (b) Voting of the people.
           (c) Resolution of the decision.
-
-      When submitting a ballot, a player can select PRESENT (syn.
-      ABSTAIN) rather than one of the options provided by the
-      decision. Rules to the contrary notwithstanding, a ballot cast
-      for PRESENT is considered to be a valid ballot, but, unless
-      specified otherwise, does not count as a valid option.
 
 History:
 Initial Mutable Rule 205, Jun. 30 1993
@@ -2567,10 +2585,11 @@ Amended(11) by Proposal 6441 (Murphy; disi.), 27 August 2009
 Amended(12) by Proposal 6452 (Murphy; disi.), 27 August 2009
 Amended(13) by Proposal 6465 (coppro; disi.), 15 September 2009
 Amended(14) by Proposal 6617 (Murphy; disi.), 4 February 2010
+Amended(15) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
-Rule 107/17 (Power=3)
+Rule 107/18 (Power=3)
 Initiating Agoran Decisions
 
       An Agoran decision is initiated when a person authorized to
@@ -2582,7 +2601,7 @@ Initiating Agoran Decisions
       (a) The matter to be decided (for example, "the adoption of
           proposal 4781").
 
-      (b) A clear indication of the options available.
+      (b) A clear indication of the set of valid votes.
 
       (c) The identity of the vote collector.
 
@@ -2647,16 +2666,15 @@ Amended(14) by Proposal 6981 (Murphy, omd), 10 April 2011
 Amended(15) by Proposal 7045 (Walker), 16 May 2011
 Amended(16) by Proposal 7606 (G.), 13 December 2013
 Amended(17) by Proposal 7629 (scshunt), 7 April 2014
+Amended(18) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
-Rule 683/20 (Power=3)
+Rule 683/21 (Power=3)
 Voting on Agoran Decisions
 
-      An entity submits a ballot on an Agoran decision by publishing
-      a valid notice indicating which one of the available options e
-      selects.  To be valid, the ballot must satisfy the following
-      conditions:
+      An entity submits a ballot on an Agoran decision by publishing a
+      notice satisfying the following conditions:
 
       (a) The ballot is submitted during the voting period for the
           decision.
@@ -2666,18 +2684,15 @@ Voting on Agoran Decisions
 
       (c) The ballot clearly identifies the matter to be decided.
 
-      (d) The ballot clearly identifies the option selected by the
-          voter.
+      (d) The ballot clearly identifies a valid vote, as determined by
+          the voting method.
 
       (e) The voter has not publicly retracted the ballot during the
           voting period.  ("Changing" a vote is equivalent to
           retracting it and casting a vote with the new value.)
 
-      (f) At the time of the submission of the ballot, the voter did
-          not have another valid ballot on the same decision.
-
-      The strength of an option is the total voting strength of all
-      voters with valid ballots cast for that option.
+      (f) It is the most recent of the voter's otherwise-valid
+          ballots.
 
 [CFJ 1609 (called 13 January 2007): To "clearly identif[y] the matter
 to be decided" does not necessarily require specifying it in detail.]
@@ -2712,6 +2727,7 @@ Amended(17) by Proposal 7077 (omd), 16 June 2011
 Amended(18) by Proposal 7629 (scshunt), 7 April 2014
 Amended(19) by Proposal 7632 (scshunt), 1 May 2014
 Amended(20) by Proposal 7647 (omd), 3 June 2014
+Amended(21) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -2727,7 +2743,7 @@ Created by Proposal 7629 (scshunt), 7 April 2014
 
 ----------------------------------------------------------------------
 
-Rule 2127/8 (Power=3)
+Rule 2127/9 (Power=3)
 Conditional Votes
 
       If a vote on an Agoran decision is submitted conditionally (e.g.
@@ -2763,6 +2779,7 @@ Amended(6) by Proposal 6403 (coppro), 30 July 2009
 Amended(7) by Proposal 7289 (G.), 9 September 2012
 Power changed from 1 to 3 by Proposal 7447 (omd), 10 June 2013
 Amended(8) by Proposal 7447 (omd), 10 June 2013
+Amended(9) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -2796,14 +2813,14 @@ Amended(7) by Proposal 7045 (Walker), 16 May 2011
 
 ----------------------------------------------------------------------
 
-Rule 208/10 (Power=3)
+Rule 208/11 (Power=3)
 Resolving Agoran Decisions
 
       The vote collector for an unresolved Agoran decision CAN resolve
-      it by announcement, indicating the option selected by Agora.  If
-      it was required to be initiated, then e SHALL resolve it in a
-      timely fashion after the end of the voting period.  To be valid,
-      this announcement must satisfy the following conditions:
+      it by announcement, indicating the outcome.  If it was required 
+      to be initiated, then e SHALL resolve it in a timely fashion 
+      after the end of the voting period.  To be valid, this 
+      announcement must satisfy the following conditions:
 
       (a) It is published after the voting period has ended.
 
@@ -2811,7 +2828,7 @@ Resolving Agoran Decisions
 
       (c) It specifies the outcome, as described elsewhere, and, if
           there was more than one valid option, provides a tally of
-          the voters' valid ballots on the various options.
+          the voters' valid ballots.
 
       Each Agoran decision has exactly one vote collector, defaulting
       to the initiator of the decision.  If the vote collector is
@@ -2856,37 +2873,55 @@ Amended(8) by Proposal 6746 (coppro; disi.), 1 July 2010
 Amended(9) by Proposal 7259 (Murphy), 6 July 2012
 Amended(10) by Proposal 7420 (omd), 27 May 2013
 Retitled by Proposal 7753 (scshunt), 30 June 2015
+Amended(11) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
-Rule 955/19 (Power=3)
+Rule 955/20 (Power=3)
 Determining the Will of Agora
 
-      After an Agoran Decision's voting period ends, it has an outcome
-      (syn. "the <appropriate noun> chosen by Agora").
+      Each Agoran decision has a voting method, which determines how
+      voters may vote on it and how to calculate the outcome.  The
+      following voting methods are defined:
 
-      (a) If there is more than one available option, and the number
-          of distinct voters who submitted valid ballots is less than
-          quorum, then the outcome is FAILED QUORUM, regardless of the
-          remainder of this rule.  Otherwise, the decision achieved
-          quorum.
+      (1) AI-majority: the valid votes are FOR and AGAINST.  Let F be
+          the total voting strength of all voters with valid ballots
+          cast FOR a decision, A be the same for AGAINST, and AI be
+          the adoption index of the decision.  The outcome is ADOPTED
+          if F/A >= AI and F/A > 1 (or F>0 and A=0), otherwise
+          REJECTED.
 
-      (b) If the decision has an adoption index, then if the strength
-          of FOR is greater than the strength of AGAINST, and the
-          ratio of the strength of FOR to the strength of AGAINST is
-          greater than the decision's adoption index (or
-          the strength of AGAINST is zero), then the outcome is
-          ADOPTED; otherwise if the strength of FOR is equal to or
-          greater than the decisions adoption index and the ration of
-          the strength of FOR to the strength of AGAINST is equal to
-          the decision's adoption index, then the vote collector shall
-          select either ADOPTED or REJECTED as the outcome;
-          otherwise, the outcome is REJECTED.
+          This is the only voting method which takes voting strength
+          into account.
 
-      (c) Otherwise, the outcome is the option with the most votes.
-          In case of a tie, the vote collector SHALL select one of the
-          leaders as the outcome. If there are no options, the outcome
-          is null.
+      (2) Instant runoff: the valid votes are ordered lists of
+          options, and the outcome is whichever option wins according
+          to the standard definition of instant runoff.  In case
+          multiple valid options tie for the lowest number of votes at
+          any stage, the vote collector CAN and must, in the
+          announcement of the decision's resolution, select one such
+          option to eliminate; if, for N > 1, all eir possible choices
+          in the next N stages would result in the same set of options
+          being eliminated, e need not specify the order of
+          elimination.
+
+      (3) First-past-the-post (default): the valid votes are the
+          options, and the outcome is whichever option received the
+          most votes.  In case of a tie, the vote collector CAN and
+          must, in the announcement of the decision's resolution,
+          select one of the leaders as the outcome.
+
+      The previous notwithstanding:
+
+      - If there is more than one option, and the number of valid
+        ballots is less than quorum, the outcome is instead FAILED
+        QUORUM.
+      - PRESENT is always a valid vote, with no effect on the outcome
+        except counting towards quorum.
+      - If there are no valid options, the outcome is null.
+
+      The outcome of a decision is determined when it is resolved, and
+      cannot change thereafter.
 
 [CFJs 1673-1675 (called 20 May 2007): Quorum for an Agoran decision is
 determined at the time the vote collector makes the calculations
@@ -2922,6 +2957,7 @@ Amended(16) by Proposal 6336 (coppro; disi.), 29 May 2009
 Amended(17) by Proposal 6403 (coppro), 30 July 2009
 Amended(18) by Proposal 7238 (omd), 10 June 2012
 Amended(19) by Proposal 7772 (scshunt), 10 August 2015
+Amended(20) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -3059,17 +3095,21 @@ Amended(9) by Proposal 7736 (aranea), 2 May 2015
 
 ----------------------------------------------------------------------
 
-Rule 2445/0 (Power=1)
+Rule 2445/2 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
       proposals in the Proposal Pool, whose value is either "pending"
       or "not pending" (default).
 
-      Each office has a spending power, which is a natural number.
-      The spending power of each office is 1, except as otherwise
-      defined by rule. The spending power of Rulekeepor, of Speaker,
-      and of Prime Minister is 2. The spending power of Promotor is 4.
+      Spending power is an office switch, whose values range over the
+      positive integers between 1 and 10 inclusive, with a default of
+      1. Spending power is tracked by the IADoP. The IADoP CAN flip
+      the spending power of an office by announcement, provided that
+      the Promotor always has spending power no less than 1 less than
+      the greatest spending power among offices, and further provided
+      that the current IADoP has not already flipped that office's
+      spending power in the current month.
 
       A player can flip a proposal's imminence to "pending" by
       announcement, unless e has already done so a number of times
@@ -3079,6 +3119,7 @@ How to Pend a Proposal
 History:
 Created by Proposal 7728 (Tiger), 24 November 2014
 Amended(1) by Proposal 7742 (ais523), 12 May 2015
+Amended(2) by Proposal 7773 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -3103,18 +3144,18 @@ Created by Proposal 7713 (Warrigal), 9 November 2014
 
 ----------------------------------------------------------------------
 
-Rule 106/35 (Power=3)
+Rule 106/36 (Power=3)
 Adopting Proposals
 
       When a decision about whether to adopt a proposal is resolved,
-      if the option selected by Agora is ADOPTED, then the proposal in
-      question is adopted, and unless other rules prevent it from
-      taking effect, its power is set to the minimum of four and its
-      adoption index, and then it takes effect.  Except as prohibited
-      by other rules, a proposal that takes effect CAN and does, as
-      part of its effect, apply the changes that it specifies.  If the
-      proposal cannot make some such changes, this does not preclude
-      the other changes from taking place.
+      if the outcome is ADOPTED, then the proposal in question is 
+      adopted, and unless other rules prevent it from taking effect, 
+      its power is set to the minimum of four and its adoption index, 
+      and then it takes effect.  Except as prohibited by other rules, 
+      a proposal that takes effect CAN and does, as part of its 
+      effect, apply the changes that it specifies.  If the proposal 
+      cannot make some such changes, this does not preclude the other 
+      changes from taking place.
 
       If there is no Agoran Decision to adopt a particular proposal
       that has an outcome of ADOPTED, that proposal CANNOT take
@@ -3188,6 +3229,7 @@ Amended(32) by Proposal 7081 (Murphy), 4 July 2011
 Amended(33) by Proposal 7083 (Walker), 4 July 2011
 Amended(34) by Proposal 7086 (G., omd), 23 July 2011
 Amended(35) by Proposal 7246 (omd), 10 June 2012
+Amended(36) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -3306,7 +3348,7 @@ Amended(42) by Proposal 7728 (Tiger), 24 November 2014
 
 ----------------------------------------------------------------------
 
-Rule 1950/30 (Power=3)
+Rule 1950/31 (Power=3)
 Decisions with Adoption Indices
 
       Adoption index is an untracked switch possessed by Agoran
@@ -3321,8 +3363,8 @@ Decisions with Adoption Indices
       a) Its adoption index.
       b) Its author (and co-authors, if any).
 
-      For any Agoran decision with an adoption index, the available
-      options are FOR and AGAINST.
+      For any Agoran decision with an adoption index, the voting
+      method is AI-majority.
 
 [CFJ 1885 (called 26 January 2008): "AGAINT" is a variant spelling of
 "AGAINST", not a customary synonym for "FOR", despite its former
@@ -3363,6 +3405,7 @@ Amended(27) by Proposal 7296 (scshunt), 9 September 2012
 Amended(28) by Proposal 7416 (omd), 12 May 2013
 Amended(29) by Proposal 7610 (G.), 22 December 2013
 Amended(30) by Proposal 7629 (scshunt), 7 April 2014
+Amended(31) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -3441,7 +3484,7 @@ Amended(4) by Proposal 7628 (ais523), 7 April 2014
 
 ----------------------------------------------------------------------
 
-Rule 2444/0 (Power=1)
+Rule 2444/1 (Power=1)
 Silver Quill
 
       The Silver Quill is a biannual award designed to honor the
@@ -3469,17 +3512,19 @@ Silver Quill
       Once four days have passed since initiation, the Herald CAN once
       initiate the Agoran decision to determine the winner, and SHALL
       do so in a timely fashion.  For this decision, the valid options
-      are all eligible proposals and the vote collector is the Herald.
+      are all eligible proposals, the vote collector is the Herald,
+      and the voting method is instant runoff.
 
-      Upon the resolution of the decision, if the outcome received at
-      least three votes (and is not FAILED QUORUM), that proposal wins
-      the Ceremony, and the Herald is authorized to award its author
-      the Patent Title of "Silver Quill YYYY/MM", substituting the
-      Marker Date; otherwise, there is no winner.  This ends the
-      Ceremony.
+      Upon the resolution of the decision, if the outcome is not
+      FAILED QUORUM and there were at least three votes containing it
+      in any preference slot, that proposal wins the Ceremony, and the
+      Herald is authorized to award its author the Patent Title of
+      "Silver Quill YYYY/MM", substituting the Marker Date; otherwise,
+      there is no winner.  This ends the Ceremony.
 
 History:
 Created by Proposal 7722 (omd), 11 November 2014
+Amended(1) by Proposal 7778 (scshunt), 14 August 2014
 
 ----------------------------------------------------------------------
 
@@ -3487,7 +3532,7 @@ Created by Proposal 7722 (omd), 11 November 2014
 Adjudication
 ----------------------------------------------------------------------
 
-Rule 991/15 (Power=2)
+Rule 991/16 (Power=2)
 Calls for Judgement
 
       Any person (the initiator) can initiate a Call for Judgement
@@ -3495,8 +3540,8 @@ Calls for Judgement
       statement to be inquired into.  E may optionally bar one person
       from the case.
 
-      At any time, each CFJ is either open (default), or has exactly
-      one judgement.
+      At any time, each CFJ is either open (default), suspended, or
+      assigned exactly one judgement.
 
       The Arbitor is an office, responsible for the administration of
       justice in a manner that is fair for emself, if not for the rest
@@ -3541,16 +3586,18 @@ Amended(12) by Proposal 7050 (omd), 16 May 2011
 Retitled and amended(13) by Proposal 7616 (G.), 16 January 2014
 Amended(14) by Proposal 7629 (scshunt), 7 April 2014
 Amended(15) by Proposal 7647 (omd), 3 June 2014
+Amended(16) by Proposal 7777 (omd, G.), 14 August 2015
 
 ----------------------------------------------------------------------
 
-Rule 591/41 (Power=1.7)
+Rule 591/42 (Power=1.7)
 Delivering Judgements
 
-      When a CFJ becomes open and is assigned to a judge, that judge
-      SHALL assign a valid judgement to the case within a week of
-      assignment, by announcement.  If e does not, the Arbitor CAN
-      remove em from being the judge of that case by announcement.
+      When a CFJ is open and assigned to a judge, that judge CAN
+      assign a valid judgement to it by announcement, and SHALL do so
+      in a timely fashion after this becomes possible.  If e does not, 
+      the Arbitor CAN remove em from being the judge of that case by 
+      announcement.
 
       The valid judgements, based on the facts of the case at the time
       the CFJ was initiated, are TRUE, FALSE, and DISMISS.  DISMISS is
@@ -3647,10 +3694,11 @@ Amended(38) by Proposal 7610 (G.), 22 December 2013
 Retitled and amended(39) by Proposal 7616 (G.), 16 January 2014
 Amended(40) by Proposal 7629 (scshunt), 7 April 2014
 Amended(41) by Proposal 7694 (omd), 23 October 2014
+Amended(42) by Proposal 7776 (omd), 14 August 2015
 
 ----------------------------------------------------------------------
 
-Rule 911/50 (Power=1.7)
+Rule 911/51 (Power=1.7)
 Motions and Moots
 
       If a CFJ (1) has a judgement that has been in effect for less
@@ -3661,21 +3709,25 @@ Motions and Moots
       is that case's judge.  When a Motion to Reconsider is so filed,
       the case is rendered open again.
 
-      A judgement assigned to any CFJ within the past two weeks CAN be
-      entered into Moot by any Player with 2 support, unless that
-      judgement has already been entered into Moot.
+      If a CFJ has a judgement assigned, a player CAN enter that
+      judgement into Moot with two support.  When this occurs, the CFJ
+      is suspended, and the Arbitor is once authorized to initiate the
+      Agoran decision to determine public confidence in the judgement,
+      which e SHALL do in a timely fashion.
 
-      Entering a Judgement into Moot is considered to be the
-      publication of notice of intent by the Arbitor to resolve the
-      Moot with Notice.  The Arbitor SHALL follow through in resolving
-      the Moot.
+      For this decision, the vote collector is the Arbitor and the
+      valid options are AFFIRM, REMAND, and REMIT.  When the decision
+      is resolved, the effect depends on the outcome:
 
-      During a Moot, any player CAN publish or retract eir Brief
-      concerning the judgement, clearly recommending a valid
-      judgement.  The Arbitor resolves the Moot by assigning a valid
-      judgement to the CFJ from among the judgements that received the
-      most unretracted recommendations, if any; otherwise the Arbitor
-      SHALL assign a valid judgement of eir choice.
+      - AFFIRM, FAILED QUORUM: The judgement is reassigned to the case,
+        and cannot be entered into Moot again.
+
+      - REMAND: The case becomes open again.
+
+      - REMIT: The case becomes open again, and the current judge is
+        recused.  The Arbitor SHALL NOT assign em to the case again
+        unless no other eligible judges have displayed interest in
+        judging.
 
 [CFJ 1597 (called 22 December 2006): It is possible to appeal a
 judgement even if it is not certain that the judgement exists.]
@@ -3744,6 +3796,7 @@ Amended(47) by Proposal 7152 (Murphy), 25 January 2012
 Retitled and amended(48) by Proposal 7616 (G.), 16 January 2014
 Amended(49) by Proposal 7629 (scshunt), 7 April 2014
 Amended(50) by Proposal 7647 (omd), 3 June 2014
+Amended(51) by Proposal 7777 (omd, G.), 14 August 2015
 
 ----------------------------------------------------------------------
 

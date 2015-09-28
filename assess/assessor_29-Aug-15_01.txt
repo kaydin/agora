@@ -1,0 +1,64 @@
+From scshunt@csclub.uwaterloo.ca Sat Aug 29 10:00:29 2015
+Date: Sat, 29 Aug 2015 13:00:03 -0400
+From: Sean Hunt <scshunt@csclub.uwaterloo.ca>
+Reply-To: agora-discussion@agoranomic.org
+To: Agora Official <agora-official@agoranomic.org>
+Subject: OFF: [Assessor] Resolution of Proposals 7785-7786
+
+    [ The following text is in the "UTF-8" character set. ]
+    [ Your display is set for the "ANSI_X3.4-1968" character set.  ]
+    [ Some characters may be displayed incorrectly. ]
+
+[This notice resolves the Agoran decisions of whether to adopt the
+ following proposals.  For each decision, the options available to
+ Agora are ADOPTED (*), REJECTED (x), and FAILED QUORUM (!). If a
+ decision's voting period is still ongoing, I end it immediately
+ before resolving it and after resolving the previous decision.]
+
+ Num   Author                 AI  Title
+*7785  G.                      1  The New Map
+*7786  scshunt                 1  Monthly Distribution
+
+              7785  7786
+aranea          F     F
+omd             F     F
+Sprocklem       F     F
+scshunt         F     F
+the Warrigal    F     F
+Tiger           P     F
+woggle          F     F
+ais523         2F    2F
+
+For/Against    8/0   9/0
+VI             *U*   *U*
+AI              1     1
+Voters          8     8
+Quorum          5     5
+
+Starting Quorum: 5
+Ending Quorum: 5
+
+Text of Adopted Proposals:
+
+//////////////////////////////////////////////////////////////////////
+
+> ID: 7785
+> Title: The New Map
+> Adoption index: 1.0
+> Author: G.
+> Co-author(s):
+>  
+> Create the following Rule, titled The New Map, Power 0.5, with the
+> text as between the following pair of <EOF>'s:
+Created as Rule 2454 in category The Game of Agora.
+
+
+> ID: 7786
+> Title: Monthly Distribution
+> Adoption index: 1.0
+> Author: scshunt
+> Co-author(s):
+
+> Amend Rule 2446 (The Agoran Newspaper) by replacing each instance of
+> "week" with "month" and "weekly" with "monthly".
+Amended(6).
